@@ -1,0 +1,39 @@
+@import './../../colors.scss';
+
+.posts-container {
+    .categories {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+
+        .category {
+            padding: 6px 10px;
+            background: $secondary;
+            border-radius: 4px;
+            margin: 10px;
+            color: $white;
+            cursor: pointer;
+
+            &:hover {
+                background: $secondaryHover;
+            }
+        }
+        .category.active {
+            background: $gold;
+        }
+    }
+    .post {
+        background: $post;
+        border-radius: 6px;
+        padding: 10px;
+        margin-bottom: 10px;
+
+        h2 {
+            margin: 0;
+            font-size: 18px;
+        }
+        p {
+            margin: 0;
+        }
+    }
+}

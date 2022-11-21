@@ -1,0 +1,11 @@
+@import './../../colors.scss';
+
+.panel-container {
+    height: 100vh;
+    background: $background;
+    box-sizing: border-box;
+
+    h1 {
+        color: $white;
+    }
+}

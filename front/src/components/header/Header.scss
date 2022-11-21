@@ -1,0 +1,26 @@
+@import './../../colors.scss';
+
+.header-container {
+    background: $main;
+    border-bottom: 2px solid $secondary;
+
+    .logo {
+        background: $white;
+        padding: 4px 8px;
+        border-radius: 6px;
+        display: inline-block;
+
+        h1 {
+            color: $secondary;
+            display: inline-block;
+            font-size: 22px;
+            margin: 0;
+        }
+    }
+    h2 {
+        font-size: 16px;
+        margin: 0;
+        font-weight: 200;
+        color: $white;
+    }
+}
